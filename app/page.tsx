@@ -55,7 +55,7 @@ export default function photoBooth () {
     const canvas = document.createElement("canvas")
     const borderSize = 0
     const imgWidth = 300
-    const imgHeight = 200
+    const imgHeight = 210
     canvas.width =  imgWidth * 3 + borderSize * 4
     canvas.height = imgHeight  + borderSize * 2
     const ctx = canvas.getContext("2d")
